@@ -1,0 +1,17 @@
+extends layout
+block content
+ .row
+     h1 
+      |  Products
+      br    
+    .grid-container2   
+    a.ap(href='/add') Add Product 
+    each product in products 
+       
+        img.pimage(src='#{product.image}', alt='some image')
+        h1.cnnt1  #{product.name}
+        label.cnnt Price: €#{product.price} 
+       
+        a.button(href='/show/#{product.name}') Show  
+        a.button2(href="/edit/#{product.id}") Edit Product 
+        a.button2(href="/delete/#{product.id}") Delete 

@@ -1,0 +1,20 @@
+extends layout
+block content
+    .row
+     h1 
+      | Reviews
+      br    
+     .grid-container1  
+         a.ap(href='/addreviews') Add Reviews 
+         each review in reviews  
+          img.rimage(src='#{review.image}', alt='some image') 
+          label.cnnt1(for="name") #{review.name} 
+          label.cnnt(for="content") #{review.review} 
+          label.cnnt1(for="email") #{review.email} 
+          
+          
+          a.button(href="/editreviews/#{review.id}") Edit Review 
+          a.button(href="/deletereview/#{review.id}") Delete 
+          
+            
+          

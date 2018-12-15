@@ -1,0 +1,132 @@
+extends layout
+block content
+ .row
+  head
+    style.
+      body {text-align: center;}
+      #main {
+      background-repeat:no-repeat;
+      background-size:100% 100%;
+  
+      width: 90%;
+      display: inline-block;
+      min-height: 900px;
+      }
+      .input {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      }
+      #headx {
+      color: White;
+      font-size: 50px;
+      padding: 2%;
+      background-color: red;
+      width: 70%;
+      display: inline-block;
+      border-radius: 8px;
+         
+      }
+      #buttonhold {
+      color: red; 
+      font-size: 50px;
+      padding: 12px;
+      background-color: black;
+      width: 70%;
+      display: inline-block;
+      border-radius: 8px;
+      }
+      .pars {
+      color: #FFFFFF;
+      font-size: 50px;
+      padding: 12px;
+      background-color: rgba(000, 0, 0, 0.7);
+      width: 70%;
+      display: inline-block;
+      }
+      .norm {
+      color: #FFFFFF;
+      font-size: 16px;
+      padding: 12px;
+      background-color: rgba(000, 0, 0, 0.7);
+      width: 70%;
+      display: inline-block;
+      }
+      .alertx {
+      color: #FFFFFF;
+      font-size: 22px;
+      width: 70%;
+      display: inline-block;
+      }
+      .button {
+      background-color: #ffffff;
+      border: none;
+      color: #555;
+      padding: 5px 12px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+      }
+      input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+  body
+    #main
+      h1#headx Log in form
+      #buttonhold
+        input#fname(type='text', name='firstname', placeholder='Your Name..')
+        p#alert1.alertx
+        input#email(type='text', name='email', placeholder='Your Email..')
+        p#alert2.alertx
+        input#password(type='text', name='passw', placeholder='Your Password..')
+        p#alert3.alertx
+        input#robo(type='text', name='robo', placeholder='Im not a robot..')
+        p#alert4.alertx
+        p#p01.norm What is 10 + 1?  
+        button.button1(onclick='sampleForm()') Try it
+        
+    script.
+        var x, text, text2, y, text3, z, text4, zz, text5, aa;
+        function sampleForm(){
+        
+        // Code to verify the name is not empty
+        x = document.getElementById("fname").value; 
+        if (x == "") {
+        text = "Name Can Not Be Blank";
+        document.getElementById("alert1").innerHTML = text;
+        }
+        else if (/\\s+/.test(x)) {
+        text2 = "That is a Real Name";
+        alert(text2.toString());
+        }
+        y = document.getElementById("email").value;
+        yy = (/@/.test(y));
+        if (yy == false){
+        text3 = "That is Not a Real Email";
+        alert(text3.toString());
+        }
+        else if  (yy == true){
+        text3 = "That is  a Real Email";
+        document.getElementById("alert2").innerHTML = text3;
+        }
+        z = document.getElementById("password").value;
+        zz = /[0-9]/.test(z);
+        if (zz == false){
+        text4 = "That is Not a Valid Password";
+        document.getElementById("alert3").innerHTML = text4;
+        }
+       
+        }
+        
+ 

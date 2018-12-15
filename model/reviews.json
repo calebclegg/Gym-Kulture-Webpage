@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Bill Newgate",
+        "id": 2,
+        "email": "BN@yahoo.com",
+        "review": "The product was okay",
+        "image": "dumbells.jpg"
+    },
+    {
+        "name": "Sosa Keef",
+        "id": 3,
+        "email": "sK@ymail.ie",
+        "review": "Exceptional Service",
+        "image": "dumbells.jpg"
+    },
+    {
+        "name": "Yerice Noike",
+        "id": 4,
+        "email": "ynoike@ymail.ie",
+        "review": "Excellent Customer Experience",
+        "image": "shoes.jpg"
+    }
+]  

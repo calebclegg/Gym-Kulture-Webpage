@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
+    title  BEAST CULTURE 
+    link(rel='stylesheet', href='../app.css', type='text/css')
+    
+  body(background='fitness.jpg')    
+    br
+    br  
+    br
+    br
+    br
+    br
+    script.
+      // Code to show and hide menu
+      $(document).ready(function(){
+      $("#buttonx").click(function(){
+      $("#topnav").slideToggle(1000);
+      });  
+      });
+    .main-container 
+      .header
+        .imhold
+          img#poster.logiIm(alt='lo', src='/logo.png')
+        .navhold
+         a#buttonx(href='#') Menu 
+          .topnav#topnav
+            a(href='/') Home  
+            a(href='/products') Products
+            a(href='/reviews') Reviews   
+            a(href='/login') Login  
+            a(href='#')   
+            block content
+             

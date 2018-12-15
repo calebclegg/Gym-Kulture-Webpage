@@ -1,0 +1,18 @@
+{
+  "name": "nodep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0",
+    "jquery": "^3.3.1",
+    "jsdom": "^13.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clegg",
+  "license": "ISC"
+}

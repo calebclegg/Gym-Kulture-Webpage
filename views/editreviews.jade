@@ -1,0 +1,21 @@
+extends layout
+block content
+    .row
+     h1 Edit Review 
+     .formHold
+       h1.itemtitle Edit Review 
+       each row in indTwo
+         form(method="post")      
+         fieldset
+         label(for="name") Name:
+         input(name="name", type="text", value="", required, ) 
+         label(for="email") Email:
+         input(name="email", type="text", value="", placeholder="email", pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$",  title="incorrect email syntax", required ) 
+         label(for="review") Product Review:
+         input(name="reviews", type="text", value="", required)
+         label(for="image") Product Image:
+         input(name="image", type="text", value="",pattern='[a-z0-9]+\.[a-z]{3,}$', title='Correct Image Format', required)  
+         button.button(type="submit") Edit The Review
+         
+         
+         

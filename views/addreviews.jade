@@ -1,0 +1,17 @@
+extends layout
+block content
+    .row  
+     h1 Add A Review
+     .formHold
+       h1.itemtitle Add the Review Form
+       form(method="post")
+        fieldset
+         label(for="name") Whats Your Name:
+         input(name="name", type="text", placeholder="name",required) 
+         label(for="email") Whats Your E-mail:
+         input(name="email", type="text", placeholder="email", pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$",  title="incorrect email syntax", required) 
+         label(for="review") Whats Do You Think: 
+         input(name="review", type="text", placeholder="review",required)
+         label(for="image") Image:   
+         input(name="image", type="text", placeholder="image",pattern='[a-z0-9]+\.[a-z]{3,}$', title="Correct Image Format", required)
+         button.button1(type="submit") Submit       

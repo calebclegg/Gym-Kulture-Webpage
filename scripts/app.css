@@ -1,0 +1,656 @@
+body {
+    background-color: #555;
+    background-image: url("/fitness.jpg");   
+    background-repeat:no-repeat;  
+    background-size: 100%; 
+    text-align: center; 
+    background-attachment: fixed;
+}
+
+
+
+
+
+.logiIm {
+    width: 60%;
+    
+      
+}  
+
+.imhold{
+    text-align: center;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    position: right top;
+}
+
+.navhold{
+    text-align: center;
+    width: 63%; 
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+.holder {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+  overflow: auto;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.row {
+    display: -webkit-flex;
+    display: inline-block;
+    width: 35%;
+}
+
+
+.holder {
+    text-align: center;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.large {
+    width: 30%;
+     background-image: url('/weights.jpg');  
+      background-repeat:no-repeat;
+    background-size:cover;
+    float: left;
+    padding:5px;
+    margin-left:10px;
+    height: 150px;
+}
+
+
+.large h2 {
+    margin-bottom: 2px;    
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.large h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.normal h2 {
+    margin-bottom: 2px;    
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.normal h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #ffffff;  
+}
+
+
+.normal2 h2 {
+    margin-bottom: 2px;    
+    font-size: 20px;
+    color: #ffffff;
+}
+
+
+.normal2 h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.normal {
+    width: 30%;
+     background-image: url('/gear.jpg');
+      background-repeat:no-repeat;
+    background-size:cover;
+    float: left;
+     padding:5px;
+     height: 150px;
+     margin-left:10px;
+     margin-bottom:10px;
+}
+
+.normal2 {
+    width: 30%;
+     background-image: url('/nutrition.jpg');
+      background-repeat:no-repeat;
+    background-size:cover;
+    float: left; 
+     padding:5px;
+     height: 150px;
+     margin-left:10px;
+     margin-bottom:10px;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #161616;
+    padding: 1px;
+    text-align: center;
+}
+
+
+.footer p{
+    color: #ffffff;
+}
+
+/* style for the reviews/products */ 
+.grid-container2 { 
+  display: grid;
+  text-align: center; 
+  
+  grid-gap: 10px;
+ /* background-color: #2196F3;  Comment this out later to remove the background color when not needed */
+  padding: 10px;
+}
+
+ .grid-container1 { 
+  display: grid;
+  text-align: center; 
+  
+  grid-gap: 10px;
+ /* background-color: #2196F3;  Comment this out later to remove the background color when not needed */
+  padding: 10px;
+}
+
+
+
+.cnnt1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+ 
+}  
+
+
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+
+
+
+.cnnt {
+    background-color: rgba(255, 255, 255, 0.8);
+   display: block;
+    
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-size: 16px
+    
+}
+
+
+
+.rimage {
+    width: 30%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    
+}
+
+
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+#itemsContainer h2 {
+   display: block;
+    color: #555;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+    
+}
+
+
+#itemsContainer h1 {
+   display: block;
+    color: #555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+}
+
+
+.itemhols {
+   margin: 10px;
+    
+    display: inline-block;
+    width: 100%;
+    
+    min-height: 30px;
+  
+   background-color: #ffffff;
+}
+  
+/* Style for products page */
+.grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+ /* background-color: #2196F3;  Comment this out later to remove the background color when not needed */
+  padding: 10px;
+}
+
+ap{
+     color: #4CAF50;  
+}
+
+.item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 5px 0;
+ 
+}
+
+
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+
+.itemtitle {
+   display: block;
+    color: red;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px
+    
+}
+
+
+.itemp {
+   display: block;
+    color: #4CAF50;
+    text-align: center;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-size: 16px
+    
+}
+
+
+
+.pimage {
+    width: 60%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    
+}
+
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+#itemsContainer h2 {
+   display: block;
+    color: #555;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+    
+}
+
+
+#itemsContainer h1 {
+   display: block;
+    color: #555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+    
+}
+
+
+.itemhols {
+   margin: 10px;
+    
+    display: inline-block;
+    width: 100%;
+    
+    min-height: 30px;
+  
+   background-color: #ffffff;
+}
+
+
+/* End Style for products page */
+  
+/* Style the footer */
+.footer {
+    background-color: #000000;
+    padding: 1px;
+    text-align: center;
+    height:20px;
+} 
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ 
+ padding-bottom: 100px; /* height of your footer */
+}
+.footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+   right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+.row {
+    display: -webkit-flex;
+    display: inline-block;
+    width: 100%;
+}
+
+.holder {
+    text-align: center;
+    width:90%;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.large {
+     width: 235px;
+     background-image: url('/weights.jpg');
+     background-repeat:no-repeat;
+     background-size:cover;
+     float: left;
+     padding:5px;
+     margin-left:10px;
+     height: 250px; 
+}
+
+
+.large h1 {
+    margin-bottom: 2px;    
+    font-size: 35px;
+    color: #d80000;
+}
+
+
+.large h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    color: #d80000;
+}
+
+
+.normal h1 {
+    margin-bottom: 2px;    
+    font-size: 35px;
+    color: #d80000;
+}
+
+
+.normal h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    color: #d80000;
+}
+
+
+.normal2 h1 {
+    margin-bottom: 2px;    
+    font-size: 35px;
+    color: #d80000;
+}
+
+
+.normal2 h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 35px;
+    color: #d80000;
+}
+
+.normal {
+    width: 225px;
+     background-image: url('/gear.jpg');
+      background-repeat:no-repeat;
+    background-size:cover;
+    float: left;
+     padding:5px;
+     height: 250px;
+     margin-left:10px;
+     margin-bottom:10px;
+}
+
+.normal2 {
+    width: 225px;
+     background-image: url('/nutrition.jpg');
+      background-repeat:no-repeat;
+    background-size:cover;
+    float: left;
+     padding:5px;
+     height: 250px;
+     margin-left:10px;
+     margin-bottom:10px;
+}
+
+
+/* Style for form */
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.formHold {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width:90%;
+}
+
+/* End Style for form */
+/* form */
+body {text-align: center;}
+#main {
+background-repeat:no-repeat;
+    background-size:100% 100%;
+background-image: url("../images/fire.jpg");
+width: 90%;
+display: inline-block;
+min-height: 900px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#headx {
+color: #000000;
+font-size: 50px;
+padding: 2%;	
+background-color: rgba(255, 0, 0, 0.3);
+width: 70%;
+display: inline-block;
+border-radius: 8px;
+}
+
+#buttonhold {
+color: #FFFFFF;
+font-size: 50px;
+padding: 12px;	
+background-color: rgba(255, 0, 0, 0.3);
+width: 70%;
+display: inline-block;
+border-radius: 8px;
+}
+
+.pars {
+color: #FFFFFF;
+font-size: 50px;
+padding: 12px;	
+background-color: rgba(000, 0, 0, 0.7);
+width: 70%;
+display: inline-block;
+}
+
+.norm {
+color: #FFFFFF;
+font-size: 16px;
+padding: 12px;	
+background-color: rgba(000, 0, 0, 0.7);
+width: 70%;
+display: inline-block;
+}
+
+.alertx {
+color: #FFFFFF;
+font-size: 22px;
+width: 70%;
+display: inline-block;
+}
+
+.button1 {
+    background-color: red;
+    border: none;
+    color: #555;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 8px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* end */

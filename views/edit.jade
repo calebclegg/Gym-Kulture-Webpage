@@ -1,0 +1,19 @@
+extends layout
+block content
+    .row
+     h1 Edit Product  
+     .formHold
+       h1.itemtitle Edit Product  
+       each row in indOne 
+         form(method="post")    
+         fieldset
+         label(for="name") Product Name:
+         input(name="name", type="text", value="", required) 
+         label(for="activity") Product Activity:
+         input(name="activity", type="text", value="", required) 
+         label(for="price") Product Price:
+         input(name="price", type="text", value="", required)
+         label(for="image") Product Image:
+         input(name="image", type="text", value="", pattern='[a-z0-9]+\.[a-z]{3,}$', title='Correct Image Format', required)
+         button.button1(type="submit") Edit The Product  
+         

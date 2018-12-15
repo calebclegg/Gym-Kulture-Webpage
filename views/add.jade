@@ -1,0 +1,17 @@
+extends layout
+block content
+    .row  
+     h1 Welcome Lets Add A Product
+     .formHold
+       h1.itemtitle Add the Product Form  
+       form(method="post")
+        fieldset
+         label(for="name") Product Name:
+         input(name="name", type="text", placeholder="Product Name",required) 
+         label(for="activity") Product Activity:
+         input(name="activity", type="text", placeholder="what is it for", required) 
+         label(for="price") Product Price:
+         input(name="price", type="text", placeholder="how much", required, title="Numbers Only Please")
+         label(for="image") Product Image:
+         input(name="image", type="text", placeholder="image", pattern='[a-z0-9]+\.[a-z]{3,}$', title="Correct Image Format", required)
+         button.button1(type="submit") Create The Product       

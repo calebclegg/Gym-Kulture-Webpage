@@ -1,0 +1,12 @@
+extends layout
+block content
+    .row  
+      .p Hello welcome to the individual page
+            each product in indiOne
+              .item   
+                h1.itemtitle #{product.name}
+                img.pimage(src='../../#{product.image}', alt='some image')
+                p.itemp Used for: #{product.activity}
+                p.itemp Price: €#{product.price}
+
+                  
